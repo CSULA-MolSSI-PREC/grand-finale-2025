@@ -1,5 +1,5 @@
-# grand-finale-2024
-Final day exercises for 2024 PREC computational molecular science workshop
+# grand-finale-2025
+Final day exercises for 2025 PREC computational molecular science workshop
 
 ### Setup
 This exercise is intended to be run on NCSA Delta. Before you begin with the activities,
@@ -19,10 +19,10 @@ Enter the following commands in the terminal in order to setup the simulation en
 3. Create Conda Environment:\
   `conda create -n mdtools python=3.9`\
   `conda activate mdtools`\
-  `conda install -c conda-forge openmm mdtraj jupyter matplotlib scikit-learn nglview`
+  `conda install -c conda-forge openmm mdtraj jupyter matplotlib scikit-learn nglview ipywidgets cudatoolkit cuda-version=11`
 
 4. Clone the Repo:\
-  `git clone https://github.com/CSULA-MolSSI-PREC/grand-finale-2024`
+  `git clone https://github.com/CSULA-MolSSI-PREC/grand-finale-2025`
 
 
 To use the Jupyter notebooks associated with this repo, you can use the NCSA 
